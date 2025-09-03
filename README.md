@@ -1,5 +1,5 @@
 
-# Detección de Fraude en Transacciones Bancarias
+# Detección de Fraude en Tarjetas de Crédito
 
 Este proyecto tiene como objetivo **detectar transacciones fraudulentas** en un dataset real de Kaggle utilizando modelos de Machine Learning.
 
@@ -27,7 +27,7 @@ Este proyecto tiene como objetivo **detectar transacciones fraudulentas** en un 
 - **Regresión Logística**
   - Buen desempeño en la clase mayoritaria (*Not Fraud*).
   - Baja capacidad de detección de fraudes en dataset original (recall limitado).
-- **Red Neuronal Simple (Shallow NN)**
+- **Red Neuronal Simple**
   - Arquitectura sencilla: capas densas con activación *ReLU* y salida *sigmoide*.
   - Accuracy global muy alto (>99%), pero esta métrica no refleja bien la detección de fraudes debido al desbalance.
 - **Random Forest**
