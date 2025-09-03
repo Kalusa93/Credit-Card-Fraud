@@ -49,8 +49,7 @@ Este proyecto tiene como objetivo **detectar transacciones fraudulentas** en un 
 - **Resultados:**
   - **Precisión, recall y f1-score** para la clase *Fraud* mejoran notablemente en todos los modelos.
   - Los modelos logran identificar fraudes con mucha mayor efectividad.
-- **Conclusión**: el balanceo es clave para entrenar modelos que realmente detecten anomalías en este tipo de problemas.
-- Los algoritmos más precisos fueron la regresión logística y  red neuronal con RELU, seguidos de random forest y gradient boosting.
+- **Conclusión**: el balanceo es clave para entrenar modelos que realmente detecten anomalías en este tipo de problemas. Los algoritmos más precisos fueron la regresión logística y  red neuronal con RELU + Sigmoide, con métricas precision, recall y f1-score superiores al 95%, seguidos por los algoritmos random forest y gradient boosting.
 
 ---
 
