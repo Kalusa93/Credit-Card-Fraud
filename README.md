@@ -5,7 +5,8 @@ Este proyecto tiene como objetivo **detectar transacciones fraudulentas** en un 
 
 ## 📂 Dataset
 - Fuente: [Credit Card Fraud Detection - Kaggle](https://www.kaggle.com/mlg-ulb/creditcardfraud)
-- Contiene **284,807 transacciones** realizadas en septiembre de 2013 por clientes en Europa.
+- Contiene **284,807 transacciones** realizadas en septiembre de 2013 por clientes con tarjetas de crédito en Europa. Las transacciones fueron realizadas en el plazo de 2 días.
+- Las variables V1, V2, ... V28 no se revelan por motivos de confidencialidad.
 - Cada fila representa una transacción, con:
   - Variables numéricas transformadas mediante *PCA* (`V1, V2, … V28`).
   - `Amount`: monto de la transacción.
